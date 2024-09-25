@@ -15,6 +15,10 @@
     height: 30px;
 }
 
+.logo {
+    height: 30px;
+}
+
 .header__right {
     display: flex;
     justify-content: right;
