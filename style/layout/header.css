@@ -26,6 +26,12 @@
     height: 30px;
 }
 
+.header__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header__input {
     width: 130px;
     height: 30px;
