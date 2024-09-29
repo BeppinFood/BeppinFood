@@ -26,10 +26,25 @@
     height: 30px;
 }
 
+.header__input {
+    width: 100px;
+    height: 30px;
+}
+
+.header__button {
+    width: 30px;
+    height: 30px;
+}
+
 .header__right {
     display: flex;
     justify-content: right;
     align-items: center;
     width: 33.33%;
+    height: 30px;
+}
+
+.header__button {
+    width: 30px;
     height: 30px;
 }
