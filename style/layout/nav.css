@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 100%;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
