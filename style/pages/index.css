@@ -39,26 +39,26 @@ body {
     transform: scale(1.2);
 }
 
-.header .nav-links {
+.header .header__list {
     list-style: none;
 }
 
-.header .nav-links li {
+.header .header__list li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.header .nav-links li:hover,
+.header .header__list li:hover,
 overlay a:hover {
     transform: scale(1.1);
 }
 
-.header .nav-links a {
+.header .header__list a {
     font-size: 700;
     color: #eceff1;
 }
 
-.header .nav-links a:hover {
+.header .header__list a:hover {
     color: #ffbc0e;
 }
 
@@ -88,7 +88,7 @@ overlay a:hover {
 
 @media screen and (max-width: 800px) {
 
-    .nav-links,
+    .header__list,
     .btn {
         display: none;
     }
