@@ -25,7 +25,7 @@ body {
     align-items: center;
     height: 85px;
     padding: 5px 10px;
-    background-color: #ffd1;
+    background-color: #000;
     backdrop-filter: blur(10px);
 }
 
