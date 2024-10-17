@@ -24,18 +24,18 @@ body {
     padding: 5px 10px;
 }
 
-.header .logo {
+.header .header__left {
     cursor: pointer;
     margin-right: auto;
 }
 
-.header .logo img {
+.header .header__left .header__logo {
     height: 70px;
     width: auto;
     transition: all .3s;
 }
 
-.header .logo img:hover {
+.header .header__left .header__logo:hover {
     transform: scale(1.2);
 }
 
