@@ -114,7 +114,8 @@ overlay a:hover {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgb(33, 49, 63, .95);
+    background-color: #fff1;
+    backdrop-filter: blur(10px);
     overflow: hidden;
     transition: all .3s;
 }
