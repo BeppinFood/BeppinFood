@@ -1,0 +1,95 @@
+.menu {
+    display: none;
+}
+
+.header .btn button,
+.header .menu button {
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background-color: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.header .btn button:hover,
+.header .menu button:hover {
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+    .nav-links, .btn {
+        display: none;
+    }
+
+    .menu {
+        display: inherit;
+    }
+
+    .header .btn {
+        display: none;
+    }
+
+}
+
+
+
+/* nav mobile */
+
+.header .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(33, 49, 63, .95);
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.header .overlay .overlay-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transform: all .3s;
+    font-weight: 700;
+    color: #eceff1;
+}
+
+.header .overlay a:hover,
+.header .overlay a:focus {
+    color: #ffbc0e;
+}
+
+.header .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 65px;
+}
+
+@media screen and (max-height: 450px) {
+    .header .overlay a {
+        font-size: 20px;
+    }
+
+    .header .overlay .close {
+        font-size: 40px;
+        right: 35px;
+    }
+
+}
