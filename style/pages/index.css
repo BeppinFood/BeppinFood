@@ -1,3 +1,5 @@
+/* general */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,13 +17,16 @@ body {
     min-width: 400px;
 }
 
+/* header */
+
 .header {
-    background-color: #000;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 85px;
     padding: 5px 10px;
+    background-color: #ffd1;
+    backdrop-filter: blur(10px);
 }
 
 .header .header__left {
@@ -158,4 +163,17 @@ overlay a:hover {
         right: 35px;
     }
 
+}
+
+/* main */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner {
+    background-image: url(assets/images/banner.png);
 }
