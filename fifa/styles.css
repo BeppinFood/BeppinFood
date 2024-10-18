@@ -137,6 +137,7 @@ section#equipos .equipo {
     background-image: url(img/barcelona.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
@@ -146,6 +147,7 @@ section#equipos .equipo {
     background-image: url(img/realmadrid.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
@@ -155,6 +157,7 @@ section#equipos .equipo {
     background-image: url(img/manchester.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
