@@ -58,11 +58,11 @@ overlay a:hover {
 
 .header .header__list a {
     font-size: 700;
-    color: #eceff1;
+    color: #fff;
 }
 
 .header .header__list a:hover {
-    color: #ffbc0e;
+    color: #f1f1f1;
 }
 
 .menu {
