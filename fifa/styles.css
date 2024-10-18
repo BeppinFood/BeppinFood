@@ -92,7 +92,7 @@ section {
 }
 
 section#inicio {
-    background-color: #f4f4f4;
+    background-image: url(img/image.png);
     padding: 50px;
     text-align: center;
 }
