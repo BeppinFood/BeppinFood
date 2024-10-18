@@ -131,7 +131,8 @@
 /* --- Estilos para el banner --- */
 .banner {
     position: relative;
-    background-image: url('../images/banner-background.jpg'); /* Cambia la imagen según tu preferencia */
+    background-image: url('../images/banner-background.jpg');
+    /* Cambia la imagen según tu preferencia */
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -139,142 +140,144 @@
     align-items: center;
     justify-content: center;
     color: white;
-  }
-  
-  .banner__overlay {
+}
+
+.banner__overlay {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     text-align: center;
     border-radius: 8px;
-  }
-  
-  .banner__title {
+}
+
+.banner__title {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
-  }
-  
-  .banner__description {
+}
+
+.banner__description {
     font-size: 1.5rem;
     margin-bottom: 2rem;
-  }
-  
-  .banner__cta {
+}
+
+.banner__cta {
     padding: 1rem 2rem;
-    background-color: #ff6347; /* Color llamativo */
+    background-color: #ff6347;
+    /* Color llamativo */
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-  }
-  
-  .banner__cta:hover {
-    background-color: #ff4500; /* Un tono más oscuro para el hover */
-  }
-  
-  /* --- Estilos para la sección "Acerca de Nosotros" --- */
-  .about-us {
+}
+
+.banner__cta:hover {
+    background-color: #ff4500;
+    /* Un tono más oscuro para el hover */
+}
+
+/* --- Estilos para la sección "Acerca de Nosotros" --- */
+.about-us {
     padding: 4rem 2rem;
     background-color: #f9f9f9;
     text-align: center;
-  }
-  
-  .about-us__title {
+}
+
+.about-us__title {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 1rem;
-  }
-  
-  .about-us__description {
+}
+
+.about-us__description {
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 2rem;
-  }
-  
-  .about-us__image {
+}
+
+.about-us__image {
     width: 100%;
     max-width: 600px;
     height: auto;
     border-radius: 10px;
-  }
-  
-  /* --- Estilos para la sección "Testimonios" --- */
-  .testimonials {
+}
+
+/* --- Estilos para la sección "Testimonios" --- */
+.testimonials {
     padding: 4rem 2rem;
     background-color: #fff;
     text-align: center;
-  }
-  
-  .testimonials__title {
+}
+
+.testimonials__title {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 2rem;
-  }
-  
-  .testimonials__list {
+}
+
+.testimonials__list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  
-  .testimonial {
+}
+
+.testimonial {
     max-width: 300px;
     background-color: #f1f1f1;
     padding: 1.5rem;
     margin: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .testimonial__text {
+}
+
+.testimonial__text {
     font-size: 1.1rem;
     color: #444;
     margin-bottom: 1rem;
-  }
-  
-  .testimonial__author {
+}
+
+.testimonial__author {
     font-size: 1rem;
     color: #888;
     font-style: italic;
-  }
-  
-  /* --- Estilos para la sección "Suscripción" --- */
-  .subscribe {
+}
+
+/* --- Estilos para la sección "Suscripción" --- */
+.subscribe {
     padding: 4rem 2rem;
     background-color: #ff6347;
     color: white;
     text-align: center;
-  }
-  
-  .subscribe__title {
+}
+
+.subscribe__title {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-  }
-  
-  .subscribe__description {
+}
+
+.subscribe__description {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-  }
-  
-  .subscribe__form {
+}
+
+.subscribe__form {
     display: flex;
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
-  }
-  
-  .subscribe__input {
+}
+
+.subscribe__input {
     padding: 1rem;
     font-size: 1rem;
     border-radius: 5px;
     border: none;
     width: 300px;
     max-width: 100%;
-  }
-  
-  .subscribe__button {
+}
+
+.subscribe__button {
     padding: 1rem 2rem;
     background-color: #fff;
     color: #ff6347;
@@ -284,11 +287,74 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .subscribe__button:hover {
+}
+
+.subscribe__button:hover {
     background-color: #f1f1f1;
-  }
-  
+}
+
 
 /* footer */
+
+/* --- Estilos para el Footer --- */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.footer__copy {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.footer__right {
+    text-align: right;
+}
+
+.footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__item {
+    margin-bottom: 0.5rem;
+}
+
+.footer__link {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer__link:hover {
+    color: #ff6347;
+    /* Mismo color llamativo utilizado en otras partes */
+}
+
+@media (max-width: 768px) {
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__right {
+        text-align: center;
+    }
+}
