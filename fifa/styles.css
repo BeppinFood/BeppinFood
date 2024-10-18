@@ -1,73 +1,107 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* General */
 body {
     font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
 }
 
-header {
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+section#inicio {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+section#noticias {
+    background-color: #fff;
+}
+
+section#noticias article {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#equipos {
+    background-color: #f4f4f4;
+}
+
+section#equipos .equipo {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#contacto {
+    background-color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
     background-color: #333;
-    padding: 10px 20px;
-}
-
-.logo h1 {
     color: white;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-}
-
-.nav-links li {
-    margin: 0 15px;
-}
-
-.nav-links li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-
-.menu-icon {
-    display: none;
-    color: white;
-    font-size: 30px;
+    border: none;
     cursor: pointer;
 }
 
-/* Responsivo: en pantallas pequeñas */
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsivo */
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        background-color: #333;
-        width: 200px;
-        border-radius: 5px;
+    section {
+        padding: 10px;
     }
 
-    .nav-links li {
-        margin: 15px 0;
-        text-align: center;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-
-    .nav-links.active {
-        display: flex;
+    form input,
+    form textarea {
+        width: 100%;
     }
 }
