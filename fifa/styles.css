@@ -138,16 +138,27 @@ section#equipos .equipo {
     background-image: url(img/barcelona.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
+
 .equipo2 {
     background-image: url(img/realmadrid.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
+
 .equipo3 {
     background-image: url(img/manchester.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
 
 section#contacto {
