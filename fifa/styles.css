@@ -134,6 +134,22 @@ section#equipos .equipo {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.equipo1 {
+    background-image: url(img/barcelona.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.equipo2 {
+    background-image: url(img/barcelona.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.equipo3 {
+    background-image: url(img/barcelona.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 section#contacto {
     background-color: #fff;
 }
