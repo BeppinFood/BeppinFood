@@ -135,4 +135,15 @@
     flex-direction: column;
 }
 
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url(assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* footer */
