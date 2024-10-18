@@ -46,7 +46,7 @@ body {
 }
 
 .header .header__list li:hover,
-.overlay .header__link:hover {
+.overlay .header__link:hover, .header__link:hover {
     transform: scale(1.1);
 }
 
