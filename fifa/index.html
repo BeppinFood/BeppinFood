@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIFA</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>Mi Página</h1>
+        </div>
+        <div class="menu-icon" id="menu-icon">
+          <span>&#9776;</span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Equipos</a></li>
+          <li><a href="#">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección de Inicio -->
+      <section id="inicio">
+          <h2>Bienvenido a Mi Página</h2>
+          <p>Somos el mejor portal de noticias y estadísticas del fútbol mundial. Aquí podrás encontrar la información más actualizada sobre tus equipos favoritos, resultados, y todo lo que necesitas saber del deporte rey.</p>
+          <p>¡Explora nuestras secciones y mantente al tanto de las últimas novedades del mundo del fútbol!</p>
+      </section>
+
+      <!-- Sección de Noticias -->
+      <section id="noticias">
+          <h2>Últimas Noticias</h2>
+          <article>
+              <h3>Gran Final del Mundial</h3>
+              <p>El Mundial llega a su final este domingo, con un enfrentamiento épico entre dos de los equipos más fuertes del torneo. ¿Quién se llevará la copa a casa? Sigue toda la cobertura aquí.</p>
+          </article>
+          <article>
+              <h3>Actualización de Clasificaciones</h3>
+              <p>Los equipos europeos están dominando las clasificaciones en la UEFA Champions League. Revisa cómo están las tablas y quiénes son los favoritos para avanzar a las fases finales.</p>
+          </article>
+          <article>
+              <h3>Nueva Promesa del Fútbol</h3>
+              <p>Con tan solo 18 años, esta nueva estrella está brillando en las ligas europeas. Conoce su historia y cómo ha llegado a ser una de las figuras más prometedoras del deporte.</p>
+          </article>
+      </section>
+
+      <!-- Sección de Equipos -->
+      <section id="equipos">
+          <h2>Equipos Destacados</h2>
+          <div class="equipo">
+              <h3>FC Barcelona</h3>
+              <p>Uno de los clubes más grandes de Europa, con una rica historia y una increíble plantilla. Conoce más sobre su trayectoria y jugadores clave.</p>
+          </div>
+          <div class="equipo">
+              <h3>Real Madrid</h3>
+              <p>El equipo con más títulos de Champions League, reconocido por su gran historia y nivel competitivo. Explora más sobre sus logros y figuras legendarias.</p>
+          </div>
+          <div class="equipo">
+              <h3>Manchester City</h3>
+              <p>Dominando la Premier League en los últimos años, el Manchester City es ahora un equipo que ha alcanzado grandes niveles en Europa. Descubre sus estrategias y logros recientes.</p>
+          </div>
+      </section>
+
+      <!-- Sección de Contacto -->
+      <section id="contacto">
+          <h2>Contáctanos</h2>
+          <p>Si tienes alguna pregunta, sugerencia o quieres colaborar con nosotros, no dudes en ponerte en contacto:</p>
+          <form>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+
+              <button type="submit">Enviar</button>
+          </form>
+      </section>
+  </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
