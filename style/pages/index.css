@@ -88,6 +88,12 @@
     list-style: none;
 }
 
+.nav__link {
+    color: #000;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 800px) {
 
     .header__right {
