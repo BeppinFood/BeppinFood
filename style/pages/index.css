@@ -90,7 +90,7 @@ overlay a:hover {
 .header .btn button:hover,
 .header .menu button:hover {
     background-color: #e2f1f8;
-    color: #ffbc0e;
+    color: #555;
     transform: scale(1.1);
 }
 
