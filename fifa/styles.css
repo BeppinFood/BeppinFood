@@ -140,12 +140,12 @@ section#equipos .equipo {
     background-size: cover;
 }
 .equipo2 {
-    background-image: url(img/barcelona.png);
+    background-image: url(img/realmadrid.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .equipo3 {
-    background-image: url(img/barcelona.png);
+    background-image: url(img/manchester.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
