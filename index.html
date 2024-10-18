@@ -50,10 +50,44 @@
     </header>
     <main class="main">
       <div class="banner">
-        <h2 class="banner__title">BeppinFood</h2>
-        <p class="banner__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel minima pariatur modi quod nostrum!</p>
-        <a href="#" class="banner__li">Saber más</a>
+        <div class="banner__overlay">
+          <h2 class="banner__title">BeppinFood</h2>
+          <p class="banner__description">Alimentación saludable, deliciosa y directa a tu puerta. ¡Descubre nuestros planes hoy mismo!</p>
+          <a href="#" class="banner__cta">Explorar Planes</a>
+        </div>
       </div>
+
+      <!-- Nueva sección Acerca de Nosotros -->
+      <section class="about-us">
+        <h2 class="about-us__title">Acerca de Nosotros</h2>
+        <p class="about-us__description">En BeppinFood, nos especializamos en ofrecer comida saludable y deliciosa directamente a tu puerta. Nuestro compromiso es brindarte alimentos de alta calidad preparados con los mejores ingredientes.</p>
+        <img src="assets/images/about-us.jpg" alt="Comida saludable" class="about-us__image" />
+      </section>
+
+      <!-- Nueva sección Testimonios -->
+      <section class="testimonials">
+        <h2 class="testimonials__title">Testimonios</h2>
+        <div class="testimonials__list">
+          <div class="testimonial">
+            <p class="testimonial__text">"La mejor experiencia culinaria que he tenido. ¡La comida es increíble y siempre llega a tiempo!"</p>
+            <p class="testimonial__author">- Juan Pérez</p>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text">"No puedo creer lo fácil que es mantener una dieta saludable con BeppinFood. Altamente recomendado."</p>
+            <p class="testimonial__author">- María Gómez</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Nueva sección de suscripción -->
+      <section class="subscribe">
+        <h2 class="subscribe__title">¡Suscríbete a Nuestro Boletín!</h2>
+        <p class="subscribe__description">Sé el primero en enterarte de nuestras ofertas exclusivas y noticias.</p>
+        <form class="subscribe__form">
+          <input type="email" placeholder="Tu correo electrónico" class="subscribe__input" />
+          <button type="submit" class="subscribe__button">Suscribirse</button>
+        </form>
+      </section>
     </main>
     <script src="script/pages/index.js"></script>
   </body>
