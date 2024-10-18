@@ -19,10 +19,19 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    cursor: pointer;
+    margin-right: auto;
 }
 
 .logo-img {
     height: 30px;
+    height: 70px;
+    width: auto;
+    transition: all .3s;
+}
+
+logo-img:hover {
+    transform: scale(1.2);
 }
 
 nav {
