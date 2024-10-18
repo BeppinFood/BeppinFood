@@ -46,6 +46,10 @@
 
 .header__button {
     display: none;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
 }
 
 .nav {
@@ -63,6 +67,11 @@
 }
 
 .nav__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
     margin: 10px;
     position: fixed;
     top: 0;
