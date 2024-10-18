@@ -97,6 +97,8 @@ section#inicio {
     background-size: cover;
     padding: 50px;
     text-align: center;
+    height: 50vh;
+    filter: opacity(0.5);
 }
 
 section#noticias {
