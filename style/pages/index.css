@@ -32,6 +32,11 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    list-style: none;
+}
+
+.header__item {
+    margin: 0 10px;
 }
 
 .header__button {
