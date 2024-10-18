@@ -16,8 +16,6 @@ body {
     background-color: #fff;
     min-width: 400px;
     background-image: url(https://beppinfood.fullsdm.com/assets/images/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* header */
@@ -28,7 +26,7 @@ body {
     align-items: center;
     height: 85px;
     padding: 5px 10px;
-    background-color: #fff1;
+    background-color: #000;
     backdrop-filter: blur(10px);
 }
 
@@ -40,6 +38,11 @@ body {
 .header .header__left .header__logo {
     height: 70px;
     width: auto;
+    transition: all .3s;
+}
+
+.header .header__left .header__logo:hover {
+    transform: scale(1.2);
 }
 
 .header .header__list {
@@ -52,18 +55,17 @@ body {
 }
 
 .header .header__list li:hover,
-.overlay a:hover,
-.header__link:hover {
-    text-decoration: overline;
+overlay a:hover {
+    transform: scale(1.1);
 }
 
 .header .header__list a {
     font-size: 700;
-    color: #fff;
+    color: #eceff1;
 }
 
 .header .header__list a:hover {
-    color: #f1f1f1;
+    color: #ffbc0e;
 }
 
 .menu {
@@ -86,7 +88,7 @@ body {
 .header .btn button:hover,
 .header .menu button:hover {
     background-color: #e2f1f8;
-    color: #555;
+    color: #ffbc0e;
     transform: scale(1.1);
 }
 
@@ -115,7 +117,7 @@ body {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 5;
+    z-index: 1;
     left: 0;
     top: 0;
     background-color: rgb(0, 0, 225, .95);
