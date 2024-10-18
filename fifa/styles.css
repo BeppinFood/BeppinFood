@@ -98,12 +98,15 @@ section#inicio {
     padding: 50px;
     text-align: center;
     height: 50vh;
-    filter: opacity(0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
 
-#inicio h2, #inicio p {
+#inicio h2,
+#inicio p {
     position: relative;
-    z-index: 1; /* Asegura que el texto esté por encima de la imagen */
+    z-index: 1;
+    /* Asegura que el texto esté por encima de la imagen */
 }
 
 section#noticias {
