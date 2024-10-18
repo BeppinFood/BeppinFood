@@ -6,6 +6,9 @@
 
 body {
     font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
 }
 
 header {
@@ -45,7 +48,6 @@ nav {
     cursor: pointer;
 }
 
-/* Responsivo: en pantallas pequeñas */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -72,21 +74,12 @@ nav {
     }
 }
 
-/* General */
-body {
-    font-family: Arial, sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 1.6;
-}
-
 h2 {
     margin-top: 20px;
     text-align: center;
     color: #333;
 }
 
-/* Secciones */
 section {
     padding: 20px;
     margin: 20px auto;
@@ -159,7 +152,6 @@ form button:hover {
     background-color: #555;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
@@ -168,7 +160,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
     section {
         padding: 10px;
@@ -180,7 +171,6 @@ footer {
     }
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: white;
@@ -260,7 +250,6 @@ footer {
     margin: 0;
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
