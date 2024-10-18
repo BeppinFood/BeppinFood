@@ -57,7 +57,7 @@
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: #fff5;
+    background-color: #000;
     backdrop-filter: blur(10px);
 }
 
