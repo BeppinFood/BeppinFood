@@ -36,6 +36,7 @@
 
 .nav {
     display: none;
+    width: 100px;
     height: 100%;
     position: fixed;
     z-index: 1;
