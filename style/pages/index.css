@@ -52,11 +52,10 @@ body {
 
 .header .header__list a {
     font-size: 700;
-    color: #eceff1;
 }
 
 .header .header__list a:hover {
-    color: #ffbc0e;
+    color: #222;
 }
 
 .menu {
