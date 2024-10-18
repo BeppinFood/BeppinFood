@@ -1,7 +1,7 @@
 function openNav() {
-  document.getElementById("nav").style.width = "100%";
+  document.getElementById("nav").style.display = "block";
 }
 
 function closeNav() {
-  document.getElementById("nav").style.width = "0%";
+  document.getElementById("nav").style.display = "none";
 }
