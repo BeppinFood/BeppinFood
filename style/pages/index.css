@@ -16,6 +16,8 @@ body {
     background-color: #fff;
     min-width: 400px;
     background-image: url(https://beppinfood.fullsdm.com/assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* header */
