@@ -24,8 +24,6 @@ header {
 }
 
 .logo-img {
-    height: 30px;
-    height: 70px;
     width: auto;
     transition: all .3s;
 }
