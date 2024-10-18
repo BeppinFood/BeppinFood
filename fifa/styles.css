@@ -93,6 +93,8 @@ section {
 
 section#inicio {
     background-image: url(img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 50px;
     text-align: center;
 }
