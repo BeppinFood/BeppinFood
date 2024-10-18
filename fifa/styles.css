@@ -101,6 +101,11 @@ section#inicio {
     filter: opacity(0.5);
 }
 
+#inicio h2, #inicio p {
+    position: relative;
+    z-index: 1; /* Asegura que el texto esté por encima de la imagen */
+}
+
 section#noticias {
     background-color: #fff;
 }
