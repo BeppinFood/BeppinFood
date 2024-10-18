@@ -54,7 +54,7 @@ body {
     font-size: 700;
 }
 
-.header .header__list .header__link:hover {
+.header .header__list .header__link:hover, .header__link:hover {
     color: #222;
 }
 
