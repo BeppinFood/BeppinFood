@@ -34,8 +34,6 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
-    width: 100%;
-    height: 100%;
     z-index: 100;
 }
 
@@ -109,6 +107,7 @@ section#inicio {
 #inicio p {
     position: relative;
     z-index: 1;
+    color: #fff;
     /* Asegura que el texto esté por encima de la imagen */
 }
 
