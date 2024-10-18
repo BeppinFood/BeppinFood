@@ -52,7 +52,7 @@ body {
 }
 
 .header .header__list li:hover,
-overlay a:hover {
+overlay a:hover, header__link:hover {
     text-decoration: overline;
 }
 
