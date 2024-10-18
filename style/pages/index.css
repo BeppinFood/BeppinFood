@@ -39,6 +39,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: fixed;
     width: 0;
     height: 100%;
 }
