@@ -64,7 +64,7 @@
 .nav__list {
     display: flex;
     justify-content: space-around;
-    align-items: left;
+    align-items: center;
     flex-direction: column;
 }
 
