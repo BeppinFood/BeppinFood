@@ -62,6 +62,10 @@
     backdrop-filter: blur(10px);
 }
 
+.nav__button {
+    margin: 10px auto;
+}
+
 .nav__list {
     display: flex;
     justify-content: space-around;
