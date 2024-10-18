@@ -114,7 +114,7 @@
     border: 1px solid #000;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
 
     .header__right {
         display: none;
