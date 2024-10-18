@@ -63,7 +63,9 @@
 }
 
 .nav__button {
-    margin: 10px auto;
+    margin: 10px;
+    top: 0;
+    right: 0;
 }
 
 .nav__list {
