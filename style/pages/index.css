@@ -42,9 +42,8 @@
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgb(33, 49, 63, .95);
-    overflow: hidden;
-    transition: all .3s;
+    background-color: #fff5;
+    backdrop-filter: blur(10px);
 }
 
 @media screen and (max-width: 800px) {
