@@ -40,11 +40,6 @@ body {
 .header .header__left .header__logo {
     height: 70px;
     width: auto;
-    transition: all .3s;
-}
-
-.header .header__left .header__logo:hover {
-    transform: scale(1.2);
 }
 
 .header .header__list {
@@ -58,7 +53,7 @@ body {
 
 .header .header__list li:hover,
 overlay a:hover {
-    transform: scale(1.1);
+    text-decoration: overline;
 }
 
 .header .header__list a {
