@@ -11,6 +11,29 @@
     padding: 10px;
 }
 
+.header__left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header__logotipo {
+    width: auto;
+    height: 30px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* main */
 
 /* footer */
