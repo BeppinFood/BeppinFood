@@ -128,4 +128,69 @@
 
 /* main */
 
+.section-promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f9fc;
+  }
+  
+  .section-promo__content {
+    max-width: 50%;
+  }
+  
+  .section-promo__title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c2e31;
+  }
+  
+  .section-promo__description {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: #6b6f76;
+  }
+  
+  .section-promo__cta {
+    background-color: #00c49a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .section-promo__cta:hover {
+    background-color: #00b488;
+  }
+  
+  .section-promo__rating {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-promo__stars {
+    color: #ffd700; /* Gold color for stars */
+    margin-right: 10px;
+  }
+  
+  .section-promo__rating-text {
+    font-size: 1rem;
+    color: #6b6f76;
+  }
+  
+  .section-promo__image {
+    max-width: 45%;
+  }
+  
+  .section-promo__image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
 /* footer */
