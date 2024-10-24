@@ -137,7 +137,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #fff;
 }
 
 .banner__overlay {
@@ -162,7 +162,7 @@
     padding: 1rem 2rem;
     background-color: #ff6347;
     /* Color llamativo */
-    color: white;
+    color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 5px;
@@ -176,19 +176,19 @@
 
 .about-us {
     padding: 4rem 2rem;
-    background-color: #f9f9f9;
+    background-color: #fff;
     text-align: center;
 }
 
 .about-us__title {
     font-size: 2.5rem;
-    color: #333;
+    color: #000;
     margin-bottom: 1rem;
 }
 
 .about-us__description {
     font-size: 1.2rem;
-    color: #555;
+    color: #000;
     margin-bottom: 2rem;
 }
 
@@ -207,7 +207,7 @@
 
 .testimonials__title {
     font-size: 2.5rem;
-    color: #333;
+    color: #000;
     margin-bottom: 2rem;
 }
 
@@ -219,7 +219,7 @@
 
 .testimonial {
     max-width: 300px;
-    background-color: #f1f1f1;
+    background-color: #fff;
     padding: 1.5rem;
     margin: 1rem;
     border-radius: 8px;
@@ -228,20 +228,20 @@
 
 .testimonial__text {
     font-size: 1.1rem;
-    color: #444;
+    color: #000;
     margin-bottom: 1rem;
 }
 
 .testimonial__author {
     font-size: 1rem;
-    color: #888;
+    color: #000;
     font-style: italic;
 }
 
 .subscribe {
     padding: 4rem 2rem;
-    background-color: #ff6347;
-    color: white;
+    background-color: #f00;
+    color: #fff;
     text-align: center;
 }
 
@@ -274,7 +274,7 @@
 .subscribe__button {
     padding: 1rem 2rem;
     background-color: #fff;
-    color: #ff6347;
+    color: #f00;
     font-size: 1.2rem;
     font-weight: 600;
     border: none;
@@ -284,15 +284,15 @@
 }
 
 .subscribe__button:hover {
-    background-color: #f1f1f1;
+    background-color: #fff;
 }
 
 
 /* footer */
 
 .footer {
-    background-color: #333;
-    color: white;
+    background-color: #000;
+    color: #fff;
     padding: 2rem;
 }
 
@@ -311,7 +311,7 @@
 
 .footer__copy {
     font-size: 0.9rem;
-    color: #ccc;
+    color: #000;
 }
 
 .footer__right {
@@ -329,14 +329,14 @@
 }
 
 .footer__link {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.3s ease;
 }
 
 .footer__link:hover {
-    color: #ff6347;
+    color: #f00;
     /* Mismo color llamativo utilizado en otras partes */
 }
 
