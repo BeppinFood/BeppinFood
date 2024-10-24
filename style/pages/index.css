@@ -23,6 +23,10 @@
     height: 30px;
 }
 
+.header__name {
+    
+}
+
 .header__right {
     display: flex;
     justify-content: right;
