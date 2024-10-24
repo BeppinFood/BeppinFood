@@ -23,8 +23,8 @@
     height: 30px;
 }
 
-.header__name {
-    
+.header__name:hover {
+    text-shadow: 0 0 10px #fff;
 }
 
 .header__right {
