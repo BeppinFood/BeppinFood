@@ -227,7 +227,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f1f1f1;
+    background-color: #333;
     gap: 10px;
 }
 
@@ -235,6 +235,9 @@
     width: 150px;
     text-align: start;
     list-style: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 900px) {
