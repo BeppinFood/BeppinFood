@@ -219,6 +219,9 @@
     .section__one {
         align-items: center;
         text-align: center;
+        background-image:url(assets/images/image.png);
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
 }
