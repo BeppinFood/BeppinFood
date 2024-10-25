@@ -132,6 +132,27 @@
 
 /* main */
 
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.section__one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+}
+
+.section__two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+}
 
 /* footer */
