@@ -230,6 +230,8 @@
 }
 
 .footer__list {
+    width: 200px;
+    text-align: start;
     list-style: none;
 }
 
