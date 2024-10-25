@@ -228,6 +228,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #f1f1f1;
+    gap: 10px;
 }
 
 .footer__list {
