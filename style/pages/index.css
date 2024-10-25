@@ -148,7 +148,7 @@
 
 .section__one {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     flex-direction: column;
     width: 50%;
