@@ -227,6 +227,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #f1f1f1;
 }
 
 .footer__list {
@@ -239,4 +240,10 @@
     .footer__top {
         flex-direction: column;
     }
+}
+
+.footer__bottom {
+    background-color: #000;
+    text-align: center;
+    padding: 5px;
 }
