@@ -114,8 +114,14 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: #fff;
+    background-color: #f00;
+    color: #fff;
     border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.nav__link--access:hover {
+    background: none;
 }
 
 @media screen and (max-width: 500px) {
@@ -174,6 +180,7 @@
     border: 1px solid #000;
     text-decoration: none;
     color: #000;
+    border-radius: 10px;
 }
 
 .section__two {
@@ -227,6 +234,11 @@
 
     .section__one-info {
         background-color: #fff9;
+        backdrop-filter: blur(10px);
+    }
+
+    .section__one-link {
+        background-color: #f009;
         backdrop-filter: blur(10px);
     }
 
