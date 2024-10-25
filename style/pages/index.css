@@ -233,6 +233,7 @@
     align-items: center;
     background-color: #333;
     gap: 10px;
+    padding: 10px;
 }
 
 .footer__list {
