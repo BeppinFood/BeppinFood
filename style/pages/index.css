@@ -149,7 +149,7 @@
 .section__one {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: start;
     flex-direction: column;
     width: 50%;
     height: 500px;
