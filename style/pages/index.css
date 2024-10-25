@@ -162,6 +162,15 @@
     color: #f00;
 }
 
+.section__one-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
 .section__two {
     display: flex;
     justify-content: center;
