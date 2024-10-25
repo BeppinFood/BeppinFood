@@ -225,6 +225,12 @@
 
 .footer__top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .footer__top {
+        flex-direction: column;
+    }
 }
