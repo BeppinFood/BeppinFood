@@ -145,6 +145,7 @@
     flex-direction: column;
     width: 50%;
     height: 500px;
+    text-align: start;
 }
 
 .section__two {
