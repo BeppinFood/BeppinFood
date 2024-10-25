@@ -244,6 +244,15 @@
     border-radius: 10px;
 }
 
+.footer__title {
+    color: #fff;
+    padding: 3px;
+}
+
+.footer__link {
+    color: #000;
+}
+
 @media screen and (max-width: 900px) {
     .footer__top {
         flex-direction: column;
@@ -252,6 +261,7 @@
 
 .footer__bottom {
     background-color: #000;
+    color: #fff;
     text-align: center;
     padding: 5px;
 }
