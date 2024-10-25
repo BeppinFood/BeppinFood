@@ -247,6 +247,14 @@
 
 }
 
+.section__four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
 @media screen and (max-width: 900px) {}
 
 /* footer */
