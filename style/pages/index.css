@@ -197,6 +197,10 @@
     text-align: center;
 }
 
+.section__the-three {
+    background-color: #f1f1f1;
+}
+
 .section__three-img {
     width: 100px;
     height: 100px;
