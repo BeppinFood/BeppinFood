@@ -155,6 +155,7 @@
     height: 500px;
     padding: 15px;
     text-align: start;
+    gap: 5px;
 }
 
 .section__one-title {
