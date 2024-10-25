@@ -229,6 +229,10 @@
     align-items: center;
 }
 
+.footer__list {
+    list-style: none;
+}
+
 @media screen and (max-width: 900px) {
     .footer__top {
         flex-direction: column;
