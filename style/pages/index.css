@@ -42,6 +42,11 @@
 .header__link {
     color: #000;
     text-decoration: none;
+    transition: .5s;
+}
+
+.header__link {
+    color: #f00;
 }
 
 .header__link--access {
