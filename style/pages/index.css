@@ -219,4 +219,13 @@
 
 }
 
+@media screen and (max-width: 900px) {
+
+    .section__one {
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
 /* footer */
