@@ -255,6 +255,10 @@
     gap: 10px;
 }
 
+.section__four-title {
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 900px) {}
 
 /* footer */
