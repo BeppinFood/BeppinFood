@@ -45,7 +45,7 @@
     transition: .5s;
 }
 
-.header__link {
+.header__link:hover {
     color: #f00;
 }
 
