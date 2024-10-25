@@ -55,8 +55,10 @@
     align-items: center;
     height: 30px;
     padding: 10px;
-    background-color: #fff;
     border: 1px solid #000;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 10px;
 }
 
 .header__button {
