@@ -234,6 +234,7 @@
 
     .section__one-info {
         background-color: #fff9;
+        border-radius: 10px;
         backdrop-filter: blur(10px);
     }
 
