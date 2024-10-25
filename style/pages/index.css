@@ -260,6 +260,10 @@
     font-size: 1.5rem;
 }
 
+.section__four-info {
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {}
 
 /* footer */
