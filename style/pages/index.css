@@ -201,4 +201,16 @@
     height: 100px;
 }
 
+@media screen and (max-width: 500px) {
+
+    .section__the-three {
+        flex-direction: column;
+    }
+
+    .section__two {
+        display: none;
+    }
+
+}
+
 /* footer */
