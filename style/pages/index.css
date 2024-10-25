@@ -148,6 +148,11 @@
     text-align: start;
 }
 
+.section__one-title {
+    font-size: 3rem;
+    color: #f00;
+}
+
 .section__two {
     display: flex;
     justify-content: center;
