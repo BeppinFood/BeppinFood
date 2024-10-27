@@ -72,13 +72,14 @@
         display: none;
     }
 
+    .header__link-access {
+        display: none;
+    }
+
     .header__button {
         display: flex;
     }
 
-    .header__link-access {
-        display: none;
-    }
 }
 
 /* nav */
