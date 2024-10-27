@@ -46,6 +46,8 @@
     display: none;
 }
 
+@media screen and (max-width: 400px) {}
+
 /* nav */
 
 .nav {
@@ -55,6 +57,14 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 400px) {}
+
+
 /* main */
 
+@media screen and (max-width: 400px) {}
+
+
 /* footer */
+
+@media screen and (max-width: 400px) {}
