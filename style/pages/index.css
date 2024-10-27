@@ -115,6 +115,10 @@
     justify-content: right;
 }
 
+.nav__logotipo {
+    height: 30px;
+}
+
 .nav__button {
     display: flex;
     justify-content: center;
