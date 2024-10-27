@@ -347,6 +347,24 @@
     background-color: #aaa;
 }
 
+.chat__head {
+    justify-content: left;
+}
+
+.chat__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 30px;
+}
+
 .chat-button {
     display: flex;
     justify-content: center;
