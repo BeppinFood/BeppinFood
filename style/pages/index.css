@@ -26,6 +26,15 @@
     align-items: center;
 }
 
+/* nav */
+
+.nav {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* main */
 
 /* footer */
