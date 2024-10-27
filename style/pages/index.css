@@ -6,18 +6,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    height: 50px;
 }
 
 .header__left {
     display: flex;
     justify-content: left;
     align-items: center;
+    height: 30px;
 }
 
 .header__center {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 30px;
 }
 
 .header__list {
@@ -31,6 +35,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    height: 30px;
 }
 
 /* nav */
