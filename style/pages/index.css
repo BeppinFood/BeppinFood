@@ -172,11 +172,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 .section__intro-video {
     width: 600px;
-}
 }
 
 @media screen and (max-width: 800px) {}
