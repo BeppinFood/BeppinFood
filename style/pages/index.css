@@ -21,7 +21,7 @@
 
 .header__center {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     width: auto;
     height: 30px;
