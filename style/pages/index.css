@@ -322,8 +322,8 @@
     z-index: 2;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgba(255, 0, 0, .9) ;
-    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px 0 #000;
+    background-color: #fff;
 }
 
 .chat__head {
@@ -360,8 +360,8 @@
     border-radius: 50%;
     cursor: pointer;
     padding: 10px;
-    background-color: #fff1;
-    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px 0 #000;
+    background-color: #fff;
 }
 
 .chat-button--close {
