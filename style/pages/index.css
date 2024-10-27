@@ -344,6 +344,7 @@
     height: 300px;
     z-index: 2;
     border-radius: 10px;
+    padding: 10px;
     background-color: #aaa;
 }
 
