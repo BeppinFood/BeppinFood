@@ -340,7 +340,7 @@
     flex-direction: column;
     position: fixed;
     right: 20px;
-    bottom: 50px;
+    bottom: 70px;
     width: 300px;
     height: 300px;
     border-radius: 10px;
@@ -359,10 +359,10 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 2rem;
     background-color: #0f0;
 }
 
 .chat-button--close {
     display: none;
+    font-size: 2rem;
 }
