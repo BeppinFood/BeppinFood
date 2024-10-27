@@ -316,7 +316,7 @@
     z-index: 2;
     border-radius: 10px;
     padding: 10px;
-    background-color: #fff1;
+    background-color: #f00;
     backdrop-filter: blur(10px);
 }
 
