@@ -319,19 +319,21 @@
       </div>
     </footer>
 
-    <button class="chat-button"></button>
+    <button class="chat-button" onclick="openChat()">Chat</button>
 
-    <div class="chat">
+    <div class="chat" id="chat">
       <div class="chat__header">
         <div class="chat__header-left">
-          <h5 class="chat__name">BeppinBOT</h5>
+          <h5 class="chat__name">Chat</h5>
         </div>
         <div class="chat__header-right">
-          <button class="chat__header-button">&times;</button>
+          <button class="chat__header-button" onclick="closeChat()" >&times;</button>
         </div>
       </div>
       <div class="chat__main"></div>
-      <div class="chat__footer"></div>
+      <div class="chat__footer">
+        <p class="chat__footer-text"><a href="#" class="chat__footer-link">Haz click aqui para conocer el tratamiendo de datos</a></p>
+      </div>
     </div>
 
     <script src="script/pages/index.js"></script>
