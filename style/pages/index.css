@@ -129,6 +129,18 @@
     width: 100px;
 }
 
+.section__stats {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section__stats-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .section__pricing {
     flex-direction: row;
     justify-content: space-between;
