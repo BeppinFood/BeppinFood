@@ -151,6 +151,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
 }
 
 .section__benefits-image {
@@ -176,6 +177,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
+
 }
 
 .section__testimonials-image {
@@ -200,6 +203,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
+
 }
 
 @media screen and (max-width: 450px) {
@@ -221,6 +226,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
+
 }
 
 
@@ -239,6 +246,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.footer__top-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
 }
 
 @media screen and (max-width: 450px) {
