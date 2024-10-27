@@ -131,7 +131,7 @@
 
 .section__stats {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .section__stats-box {
