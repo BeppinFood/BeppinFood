@@ -99,6 +99,7 @@
 
 .section__benefits {
     flex-direction: row;
+    justify-content: space-between;
 }
 
 
