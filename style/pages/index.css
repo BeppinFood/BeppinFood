@@ -106,6 +106,15 @@
     width: 100px;
 }
 
+.section__testimonials {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section__testimonials-image {
+    width: 100px;
+}
+
 
 @media screen and (max-width: 400px) {}
 
