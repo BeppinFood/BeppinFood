@@ -112,7 +112,7 @@
 }
 
 .nav__box--top {
-    justify-content: right;
+    justify-content: space-between;
 }
 
 .nav__logotipo {
