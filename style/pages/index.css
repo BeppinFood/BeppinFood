@@ -105,6 +105,12 @@
     transition: all .3s;
 }
 
+.nav__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav__button {
     width: 30px;
     height: 30px;
