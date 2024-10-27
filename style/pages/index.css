@@ -243,3 +243,10 @@
     }
 
 }
+
+.footer__bottom {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+}
