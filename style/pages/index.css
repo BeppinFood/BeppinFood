@@ -68,7 +68,7 @@
     align-items: center;
     flex-direction: column;
     width: 90%;
-    height: 90vh;
+    min-height: 90vh;
     margin: auto;
     border: 1px solid #000;
 }
