@@ -76,7 +76,7 @@
 .section__intro {
     position: relative;
     overflow: hidden;
-    height: 100vh;
+    height: 90vh;
     /* Ajusta la altura según lo necesites */
 }
 
