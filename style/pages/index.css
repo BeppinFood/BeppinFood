@@ -189,7 +189,6 @@
 .section__intro-title,
 .section__intro-description {
     position: relative;
-    z-index: 1;
 }
 
 @media screen and (max-width: 800px) {
@@ -340,9 +339,10 @@
     flex-direction: column;
     position: fixed;
     right: 20px;
-    bottom: 70px;
+    bottom: 80px;
     width: 300px;
     height: 300px;
+    z-index: 2;
     border-radius: 10px;
     background-color: #aaa;
 }
@@ -356,6 +356,7 @@
     bottom: 20px;
     width: 50px;
     height: 50px;
+    z-index: 2;
     border: none;
     border-radius: 50%;
     cursor: pointer;
