@@ -66,7 +66,19 @@
     display: none;
 }
 
-@media screen and (max-width: 400px) {}
+@media screen and (max-width: 400px) {
+    .header__center {
+        display: none;
+    }
+
+    .header__button {
+        display: flex;
+    }
+
+    .header__link-access {
+        display: none;
+    }
+}
 
 /* nav */
 
