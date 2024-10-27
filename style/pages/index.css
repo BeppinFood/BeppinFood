@@ -2,6 +2,30 @@
 
 /* header */
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
 /* main */
 
 /* footer */
