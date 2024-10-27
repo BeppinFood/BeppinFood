@@ -73,6 +73,10 @@
     padding: 30px;
 }
 
+.section__intro-video {
+    width: 100%;
+}
+
 @media screen and (max-width: 400px) {}
 
 
