@@ -192,7 +192,13 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 800px) {
+    .section__intro {
+        
+        
+        height: 50vh;
+    }
+}
 
 
 .section__benefits {
