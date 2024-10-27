@@ -19,6 +19,10 @@
     height: 30px;
 }
 
+.header__logotipo {
+    height: 30px;
+}
+
 .header__center {
     display: flex;
     justify-content: center;
