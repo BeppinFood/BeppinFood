@@ -55,6 +55,7 @@
 .header__link-access {
     width: auto;
     height: 30px;
+    padding: 5px;
     text-decoration: none;
     color: #000;
     border: 1px solid #000;
