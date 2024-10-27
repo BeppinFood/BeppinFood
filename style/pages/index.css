@@ -194,8 +194,8 @@
 
 @media screen and (max-width: 800px) {
     .section__intro {
-        
-        
+
+
         height: 50vh;
     }
 }
@@ -329,32 +329,4 @@
     padding: 10px;
     color: #fff;
     background-color: #000;
-}
-
-
-
-
-
-
-
-
-
-
-
-.chat-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.chat-window {
-    display: none;
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    background-color: white;
 }

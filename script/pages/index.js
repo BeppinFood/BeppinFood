@@ -8,17 +8,11 @@ function closeNav() {
   document.body.style.overflow = "";
 }
 
-
-
-
-
-
-
-document.getElementById('chat-button').addEventListener('click', function() {
-  const chatWindow = document.getElementById('chat-window');
-  chatWindow.style.display = chatWindow.style.display === 'none' || chatWindow.style.display === '' ? 'block' : 'none';
+document.getElementById("chat-button").addEventListener("click", function () {
+  const chatWindow = document.getElementById("chat-window");
+  chatWindow.style.display = chatWindow.style.display === "none" || chatWindow.style.display === "" ? "block" : "none";
 });
 
-document.getElementById('close-chat').addEventListener('click', function() {
-  document.getElementById('chat-window').style.display = 'none';
+document.getElementById("close-chat").addEventListener("click", function () {
+  document.getElementById("chat-window").style.display = "none";
 });
