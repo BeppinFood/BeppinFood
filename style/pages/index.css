@@ -113,10 +113,6 @@
     align-items: center;
 }
 
-.nav__box-button {
-    justify-content: right;
-}
-
 .nav__button {
     display: none;
     justify-content: center;
