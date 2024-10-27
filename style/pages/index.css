@@ -102,6 +102,13 @@
     justify-content: space-between;
 }
 
+.section__benefits-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .section__benefits-image {
     width: 100px;
 }
@@ -109,6 +116,13 @@
 .section__testimonials {
     flex-direction: row;
     justify-content: space-between;
+}
+
+.section__testimonials-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section__testimonials-image {
