@@ -100,8 +100,8 @@
     height: 100%;
     padding: 10px;
     z-index: 5;
-    backdrop-filter: blur(10px);
     background-color: #fff1;
+    backdrop-filter: blur(10px);
 }
 
 .nav__box {
