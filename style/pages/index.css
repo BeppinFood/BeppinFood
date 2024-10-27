@@ -345,7 +345,8 @@
     z-index: 2;
     border-radius: 10px;
     padding: 10px;
-    background-color: #aaa;
+    background-color: #fff1;
+    backdrop-filter: blur(10px);
 }
 
 .chat__head {
@@ -381,7 +382,9 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    background-color: #aaa;
+    padding: 10px;
+    background-color: #fff1;
+    backdrop-filter: blur(10px);
 }
 
 .chat-button--close {
