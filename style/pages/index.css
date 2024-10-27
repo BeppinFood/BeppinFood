@@ -20,6 +20,12 @@
     align-items: center;
 }
 
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header__right {
     display: flex;
     justify-content: right;
