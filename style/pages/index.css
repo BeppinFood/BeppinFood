@@ -113,6 +113,10 @@
     align-items: center;
 }
 
+.nav__box-button {
+    justify-content: right;
+}
+
 .nav__button {
     display: none;
     justify-content: center;
@@ -130,6 +134,7 @@
 }
 
 .nav__link {
+    font-size: 3rem;
     text-decoration: none;
     color: #000;
 }
