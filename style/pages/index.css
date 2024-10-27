@@ -76,6 +76,7 @@
 .section__intro-video {
     position: relative;
     width: 100%;
+    z-index: -1;
 }
 
 @media screen and (max-width: 400px) {}
