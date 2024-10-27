@@ -322,7 +322,7 @@
     z-index: 2;
     border-radius: 10px;
     padding: 10px;
-    background-color: #f00;
+    background-color: rgba(255, 0, 0, .9) ;
     backdrop-filter: blur(10px);
 }
 
