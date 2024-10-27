@@ -39,6 +39,11 @@
     gap: 10px;
 }
 
+.header__link {
+    text-decoration: none;
+    color: #000;
+}
+
 .header__right {
     display: flex;
     justify-content: right;
