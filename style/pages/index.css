@@ -129,6 +129,18 @@
     width: 100px;
 }
 
+.section__pricing {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section__pricing-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 @media screen and (max-width: 400px) {}
 
