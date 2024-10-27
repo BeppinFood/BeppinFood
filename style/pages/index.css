@@ -67,6 +67,7 @@
 }
 
 @media screen and (max-width: 400px) {
+
     .header__center {
         display: none;
     }
