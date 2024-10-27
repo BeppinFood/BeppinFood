@@ -236,4 +236,10 @@
     align-items: center;
 }
 
-@media screen and (max-width: 400px) {}
+@media screen and (max-width: 450px) {
+
+    .footer__top {
+        flex-direction: column;
+    }
+
+}
