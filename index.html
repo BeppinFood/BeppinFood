@@ -322,7 +322,20 @@
     <button class="chat-button" id="openChat" onclick="openChat()">Chat</button>
     <button class="chat-button chat-button--close" id="closeChat" onclick="closeChat()">&times;</button>
 
-    <div class="chat" id="chat"></div>
+    <div class="chat" id="chat">
+      <div class="chat__head">
+        <h5 class="chat__name">Chat</h5>
+      </div>
+      <div class="chat__body">
+        <div class="chat__conversation">
+          <p class="chat__message">Hola, ¿como podemos ayudarte?</p>
+        </div>
+        <form action="" class="chat__form">
+          <input type="text" class="chat__input" />
+          <button type="submit" class="chat__button">Enviar</button>
+        </form>
+      </div>
+    </div>
 
     <script src="script/pages/index.js"></script>
   </body>
