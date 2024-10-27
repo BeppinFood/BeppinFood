@@ -1,5 +1,5 @@
 function openNav() {
-  document.getElementById("nav").style.display = "block";
+  document.getElementById("nav").style.display = "flex";
   document.body.style.overflow = "hidden";
 }
 
