@@ -74,7 +74,7 @@
 }
 
 .section__intro-video {
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 
