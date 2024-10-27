@@ -75,6 +75,7 @@
 
 .section__intro-video {
     position: absolute;
+    z-index: -1;
 }
 
 @media screen and (max-width: 400px) {}
