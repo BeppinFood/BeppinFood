@@ -356,3 +356,7 @@
     border-radius: 50%;
     background-color: #fff;
 }
+
+.chat-button--close {
+    display: none;
+}
