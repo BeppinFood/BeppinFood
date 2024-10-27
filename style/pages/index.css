@@ -349,12 +349,14 @@
 
 .chat__head {
     justify-content: left;
+    width: 100%;
 }
 
 .chat__form {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .chat__button {
