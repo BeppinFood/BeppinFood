@@ -496,6 +496,7 @@ body {
 .chat__head {
     justify-content: left;
     width: 100%;
+    border-bottom: 1px solid #aaa;
 }
 
 .chat__conversation {
