@@ -318,6 +318,13 @@ body {
     color: #aace6b;
 }
 
+.section__pricing-button {
+    color: #000;
+    border: 1px solid #aace6b;
+    border-radius: 10px;
+    background-color: #aace6b;
+}
+
 
 @media screen and (max-width: 800px) {
 
