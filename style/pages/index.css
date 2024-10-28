@@ -203,7 +203,6 @@ body {
     align-items: center;
     flex-direction: column;
     width: 90%;
-    min-height: 60vh;
     margin: auto;
 }
 
