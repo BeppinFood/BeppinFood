@@ -274,6 +274,11 @@ body {
 
 }
 
+.section__stats-description {
+    color: #aace6b;
+    font-size: 3rem;
+}
+
 @media screen and (max-width: 800px) {
 
     .section__stats {
