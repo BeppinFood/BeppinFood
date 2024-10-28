@@ -49,7 +49,7 @@ body {
 }
 
 .header__item {
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .header__item:hover {
@@ -59,7 +59,7 @@ body {
 .header__link {
     text-decoration: none;
     color: #000;
-    transition: .5s;
+    transition: .2;
 }
 
 .header__link:hover {
