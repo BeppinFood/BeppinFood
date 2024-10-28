@@ -235,6 +235,10 @@ body {
     gap: 30px;
 }
 
+.section__intro-box {
+    gap: 10px;
+}
+
 .section__intro-title {
     color: #aace6b;
 }
