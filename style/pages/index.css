@@ -183,7 +183,6 @@ body {
     transform: translateY(-3px);
 }
 
-
 .nav__link {
     display: flex;
     justify-content: center;
@@ -228,7 +227,6 @@ body {
     margin: auto;
     padding: 50px 0;
 }
-
 
 /* video */
 .section__intro {
@@ -429,7 +427,6 @@ body {
     border-radius: 10px;
     background-color: #aace6b;
 }
-
 
 @media screen and (max-width: 800px) {
 
