@@ -53,7 +53,7 @@ body {
 }
 
 .header__item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
 }
 
 .header__link {
