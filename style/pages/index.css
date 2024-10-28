@@ -253,6 +253,7 @@ body {
 @media screen and (max-width: 800px) {
     .section__intro {
         flex-direction: column;
+        gap: 50px;
     }
 
     .section__intro-video {
