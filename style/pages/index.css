@@ -345,6 +345,7 @@ body {
     padding: 20px;
     border-radius: 50px;
     width: auto;
+    gap: 20px;
     height: auto;
     border: 3px solid #aace6b;
 
