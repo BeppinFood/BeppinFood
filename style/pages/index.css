@@ -171,10 +171,28 @@ body {
     gap: 20px;
 }
 
+.nav__item {
+    transition: 0.2s;
+}
+
+.nav__item:hover {
+    transform: translateY(-3px);
+}
+
+
 .nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     font-size: 2rem;
     text-decoration: none;
     color: #000;
+}
+
+.nav__link:hover {
+    color: #aace6b;
 }
 
 .nav__link-access {
