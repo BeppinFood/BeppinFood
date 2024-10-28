@@ -50,6 +50,13 @@ body {
 .header__link {
     text-decoration: none;
     color: #000;
+    transition: .5s;
+}
+
+.header__link:hover {
+    color: #aace6b;
+    box-shadow: 0 5px 10px 0 #000;
+    transform: translateY(-5px);
 }
 
 .header__right {
