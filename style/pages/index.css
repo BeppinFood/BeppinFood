@@ -415,6 +415,7 @@ body {
     flex-direction: column;
     padding: 10px;
     width: 400px;
+    border-radius: 10px;
     background-color: #fff;
 
 }
