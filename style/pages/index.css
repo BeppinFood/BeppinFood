@@ -85,6 +85,10 @@ body {
     background-color: #aace6b;
 }
 
+.header__link-access:hover {
+    background: none;
+}
+
 .header__button {
     display: none;
     justify-content: center;
@@ -175,6 +179,10 @@ body {
     border: 1px solid #aace6b;
     border-radius: 10px;
     background-color: #aace6b;
+}
+
+.nav__link-access:hover {
+    background: none;
 }
 
 @media screen and (max-width: 800px) {}
