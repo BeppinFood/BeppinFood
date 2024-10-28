@@ -1,7 +1,7 @@
 /* general */
 
 body {
-    background-color: #f4f5ff;
+    background-color: #f1f1f1;
 }
 
 /* header */
@@ -294,6 +294,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #afcf6f;
 }
 
 .footer__top-box {
