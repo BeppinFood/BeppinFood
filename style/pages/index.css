@@ -308,6 +308,13 @@ body {
 }
 
 /* DEMO */
+
+.section__cta {
+    padding: 30px;
+    background-color: #fff;
+    gap: 10px;
+}
+
 .section__cta-name {
     color: #aace6b;
 }
