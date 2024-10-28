@@ -353,15 +353,13 @@ body {
 
 /* footer */
 
-.footer {
-    height: 50vh;
-}
 
 .footer__top {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #c7de9e;
+    height: 50vh;
 }
 
 .footer__top-box {
