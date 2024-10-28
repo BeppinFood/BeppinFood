@@ -183,7 +183,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 90%;
-    min-height: 90vh;
+    min-height: 50vh;
     margin: auto;
 }
 
