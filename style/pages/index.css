@@ -214,6 +214,10 @@ body {
 
 }
 
+.section__features-name {
+    color: #aace6b;
+}
+
 .section__features-list {
     list-style: none;
 }
