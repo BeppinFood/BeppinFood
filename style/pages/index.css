@@ -521,6 +521,16 @@ body {
     gap: 10px;
 }
 
+.chat__message-agent {
+    background-color: #f1f1f1;
+    justify-content: left;
+}
+
+.chat__message-client {
+    background-color: #aace6b;
+    justify-content: right;
+}
+
 .chat__form {
     display: flex;
     justify-content: center;
