@@ -224,6 +224,11 @@ body {
     align-items: center;
 }
 
+.section__features-link {
+    color: #aace6b;
+    text-decoration: none;
+}
+
 .section__testimonials {
     flex-direction: row;
     justify-content: space-between;
