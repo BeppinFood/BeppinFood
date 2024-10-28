@@ -218,6 +218,12 @@ body {
     list-style: none;
 }
 
+.section__features-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .section__testimonials {
     flex-direction: row;
     justify-content: space-between;
