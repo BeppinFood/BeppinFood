@@ -311,7 +311,7 @@ body {
 .section__features-item {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: top;
     font-size: 13px;
 }
 
