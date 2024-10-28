@@ -211,7 +211,11 @@ body {
     border-radius: 100px;
 }
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 800px) {
+    .section__intro {
+        flex-direction: column;
+    }
+}
 
 
 /* beneficios */
