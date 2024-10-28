@@ -194,6 +194,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    height: 90vh;
 }
 
 .section__intro-title {
