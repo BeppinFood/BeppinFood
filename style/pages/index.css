@@ -348,7 +348,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #afcf6f;
+    background-color: #c7de9e;
 }
 
 .footer__top-box {
@@ -427,7 +427,7 @@ body {
     border-radius: 50%;
     cursor: pointer;
     padding: 10px;
-    box-shadow: 0 0 10px 0 #afcf6f;
+    box-shadow: 0 0 10px 0 #000;
     background-color: #aace6b;
 }
 
