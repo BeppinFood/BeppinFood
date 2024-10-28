@@ -103,6 +103,8 @@ body {
     align-items: center;
     width: 30px;
     height: 30px;
+    background: none;
+    border: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -160,6 +162,8 @@ body {
     align-items: center;
     width: 30px;
     height: 30px;
+    background: none;
+    border: none;
 }
 
 .nav__list {
@@ -532,5 +536,4 @@ body {
 
 .chat-button--close {
     display: none;
-    font-size: 2rem;
 }
