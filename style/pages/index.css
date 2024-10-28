@@ -185,6 +185,10 @@ body {
     flex-direction: row;
 }
 
+.section__intro-title {
+    color: #aace6b;
+}
+
 .section__intro-video {
     width: 600px;
     border-radius: 100px;
