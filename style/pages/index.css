@@ -290,6 +290,7 @@ body {
 .section__features {
     padding: 30px;
     background-color: #fff;
+    gap: 10px;
 }
 
 .section__features-name {
