@@ -288,6 +288,7 @@ body {
 /* funciones espesificas */
 
 .section__features {
+    padding: 30px;
     background-color: #fff;
 }
 
