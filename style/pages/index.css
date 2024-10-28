@@ -302,6 +302,11 @@ body {
 
 }
 
+.section__pricing-title {
+    font-size: 2rem;
+    color: #aace6b;
+}
+
 
 @media screen and (max-width: 800px) {
 
