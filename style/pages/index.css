@@ -511,6 +511,13 @@ body {
     align-items: center;
     width: auto;
     height: 30px;
+    background-color: #aace6b;
+    border: none;
+}
+
+.chat__imput {
+    padding: 5px;
+    height: 30px;
 }
 
 .chat-button {
