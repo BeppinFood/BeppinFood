@@ -319,6 +319,7 @@ body {
 }
 
 .section__pricing-button {
+    padding: 5px;
     color: #000;
     border: 1px solid #aace6b;
     border-radius: 10px;
