@@ -191,6 +191,7 @@ body {
 
 .section__intro-video {
     width: 600px;
+    border: 1px solid #aace6b;
     border-radius: 100px;
 }
 
