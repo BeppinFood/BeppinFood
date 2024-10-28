@@ -498,6 +498,20 @@ body {
     width: 100%;
 }
 
+.chat__conversation {
+    background-image: url(https://beppinfood.fullsdm.com/assets/images/chatbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chat__message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aace6b;
+    padding: 5px;
+}
+
 .chat__form {
     display: flex;
     justify-content: center;
