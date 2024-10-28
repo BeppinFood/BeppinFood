@@ -232,6 +232,7 @@ body {
     align-items: center;
     flex-direction: row;
     height: 90vh;
+    gap: 30px;
 }
 
 .section__intro-title {
@@ -253,7 +254,6 @@ body {
         width: 100%;
     }
 }
-
 
 /* beneficios */
 .section__benefits {
