@@ -228,13 +228,16 @@ body {
     align-items: center;
 }
 
-.section__features-link {
-    color: #aace6b;
-    text-decoration: none;
-}
-
 .section__cta-name {
     color: #aace6b;
+}
+
+.section__cta-link {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #aace6b;
+    border-radius: 10px;
+    background-color: #aace6b;
 }
 
 .section__testimonials {
