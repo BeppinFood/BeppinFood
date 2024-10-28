@@ -513,6 +513,7 @@ body {
     border-radius: 10px;
     padding: 5px;
     width: 100%;
+    gap: 10px;
 }
 
 .chat__form {
