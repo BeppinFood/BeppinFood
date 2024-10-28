@@ -183,7 +183,6 @@ body {
     width: 90%;
     min-height: 90vh;
     margin: auto;
-    box-shadow: 0 0 10px 0 #aace6b;
 }
 
 .section__intro {
@@ -252,6 +251,7 @@ body {
 .section__cta-link {
     color: #000;
     text-decoration: none;
+    padding: 5px;
     border: 1px solid #aace6b;
     border-radius: 10px;
     background-color: #aace6b;
