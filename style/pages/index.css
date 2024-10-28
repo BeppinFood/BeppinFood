@@ -183,7 +183,7 @@ body {
     width: 90%;
     min-height: 90vh;
     margin: auto;
-    border: 1px solid #000;
+    box-shadow: 0 0 10px 0 #aace6b;
 }
 
 .section__intro {
