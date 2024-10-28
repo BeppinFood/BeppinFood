@@ -48,6 +48,10 @@ body {
     gap: 10px;
 }
 
+.header__item {
+    transition: 0.5s;
+}
+
 .header__item:hover {
     transform: translateY(-5px);
 }
@@ -58,7 +62,7 @@ body {
     transition: .5s;
 }
 
-.header__item:hover {
+.header__link:hover {
     color: #aace6b;
 }
 
