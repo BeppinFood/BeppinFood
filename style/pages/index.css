@@ -214,6 +214,9 @@ body {
 
 }
 
+.section__features-list {
+    list-style: none;
+}
 
 .section__testimonials {
     flex-direction: row;
