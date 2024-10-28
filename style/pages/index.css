@@ -505,9 +505,6 @@ body {
 }
 
 .chat__conversation {
-    background-image: url(https://beppinfood.fullsdm.com/assets/images/chatbackground.png);
-    background-repeat: no-repeat;
-    background-position: center;
     border-radius: 10px;
     padding: 10px;
     height: 90%;
