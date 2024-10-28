@@ -233,11 +233,10 @@ body {
 /* video */
 .section__intro {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     height: 90vh;
-    gap: 30px;
 }
 
 .section__intro-box {
