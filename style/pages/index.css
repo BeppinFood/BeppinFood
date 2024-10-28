@@ -334,7 +334,7 @@ body {
 .section__testimonials {
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .section__testimonials-box {
