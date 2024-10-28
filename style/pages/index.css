@@ -206,7 +206,7 @@ body {
 }
 
 .section__intro-video {
-    width: 600px;
+    width: 50%;
     border: 3px solid #aace6b;
     border-radius: 100px;
 }
@@ -214,6 +214,9 @@ body {
 @media screen and (max-width: 800px) {
     .section__intro {
         flex-direction: column;
+    }
+    .section__intro-video {
+        width: 100%;
     }
 }
 
