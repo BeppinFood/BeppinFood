@@ -310,6 +310,7 @@ body {
 
 .section__features-list {
     list-style: none;
+    gap: 10px;
 }
 
 .section__features-item {
