@@ -502,14 +502,17 @@ body {
     background-image: url(https://beppinfood.fullsdm.com/assets/images/chatbackground.png);
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .chat__message {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #aace6b;
+    border-radius: 10px;
     padding: 5px;
+    width: 100%;
 }
 
 .chat__form {
