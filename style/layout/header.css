@@ -4,3 +4,25 @@
     align-items: center;
     height: 50px;
 }
+
+.header__left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 30px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 30px;
+}
+
+.header__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
