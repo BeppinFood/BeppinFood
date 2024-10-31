@@ -409,7 +409,7 @@ body {
 
 .section__pricing-box {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 10px;
@@ -435,11 +435,15 @@ body {
 
 .section__pricing-list {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     list-style: none;
     width: 100%;
+}
+
+.section__pricing-item {
+    justify-content: left;
 }
 
 @media screen and (max-width: 800px) {
