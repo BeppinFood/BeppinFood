@@ -461,6 +461,8 @@ body {
     align-items: center;
     width: 70%;
     padding: 10px;
+    gap: 10px;
+    
 }
 
 .section__faq-box {
@@ -473,9 +475,6 @@ body {
 }
 
 .section__faq-title {
-    display: flex;
-    justify-content: left;
-    align-items: center;
     padding: 5px;
     width: 100%;
 }
