@@ -467,6 +467,14 @@ body {
     background-color: #aace6b;
 }
 
+.section__faq-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+
 /* soporte */
 .section__support-title {
     color: #aace6b;
