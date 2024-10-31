@@ -459,6 +459,10 @@ body {
     padding: 10px;
 }
 
+.section__faq-box {
+    background-color: #aace6b;
+}
+
 /* soporte */
 .section__support-title {
     color: #aace6b;
