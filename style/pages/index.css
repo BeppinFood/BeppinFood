@@ -321,10 +321,8 @@ body {
 /* DEMO */
 
 .section__cta {
-    background-color: #fff;
     gap: 10px;
     padding: 30px 20px;
-    border-radius: 30px;
 }
 
 .section__cta-name {
