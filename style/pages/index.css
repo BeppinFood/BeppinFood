@@ -465,6 +465,7 @@ body {
 
 .section__faq-box {
     background-color: #aace6b;
+    gap: 5px;
 }
 
 .section__faq-title {
