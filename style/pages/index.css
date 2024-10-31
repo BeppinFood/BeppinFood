@@ -449,6 +449,16 @@ body {
     }
 }
 
+/* faq */
+
+.section__faq {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 70%;
+    padding: 10px;
+}
+
 /* soporte */
 .section__support-title {
     color: #aace6b;
