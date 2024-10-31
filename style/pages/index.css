@@ -466,6 +466,9 @@ body {
 .section__faq-box {
     background-color: #aace6b;
     gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section__faq-title {
