@@ -481,6 +481,10 @@ body {
     width: 100%;
 }
 
+.section__faq-description {
+    background-color: #fff;
+}
+
 /* soporte */
 
 .section__support {
