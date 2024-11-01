@@ -591,6 +591,10 @@ body {
     list-style: none;
 }
 
+.footer__link {
+    color: #000;
+}
+
 @media screen and (max-width: 800px) {
 
     .footer__top {
