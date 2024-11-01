@@ -570,36 +570,42 @@ body {
 
 /* footer */
 
-.footer__top {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #c7de9e;
-    min-height: 50vh;
+.footer {
+    font-family: Arial, sans-serif; /* Puedes ajustar la fuente según tu diseño */
+    color: #333; /* Color de texto predeterminado */
 }
 
-.footer__top-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
+.footer__top-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2c2c2c;
 }
 
-@media screen and (max-width: 800px) {
-
-    .footer__top {
-        flex-direction: column;
-    }
-
+.footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.footer__bottom {
-    text-align: center;
-    padding: 10px;
+.footer__item {
+    margin: 8px 0;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #007bff; /* Color de los enlaces */
+    transition: color 0.3s;
+}
+
+.footer__link:hover {
+    color: #0056b3; /* Color al pasar el mouse */
+}
+
+.footer__copyright {
+    font-size: 14px;
     color: #fff;
-    background-color: #000;
 }
+
 
 /* chat */
 
