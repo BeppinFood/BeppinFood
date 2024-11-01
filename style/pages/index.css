@@ -544,19 +544,18 @@ body {
 
 .section__contact-input:focus,
 .section__contact-textarea:focus {
-    border-color: #007bff;
+    border-color: #aace6b;
     outline: none;
 }
 
 .section__contact-textarea {
     resize: vertical;
-    /* Permite cambiar el tamaño verticalmente */
     min-height: 100px;
 }
 
 .section__contact-button {
     padding: 12px;
-    background-color: #007bff;
+    background-color: #aace6b;
     color: white;
     border: none;
     border-radius: 4px;
@@ -566,7 +565,7 @@ body {
 }
 
 .section__contact-button:hover {
-    background-color: #0056b3;
+    background-color: #a0c000;
 }
 
 
