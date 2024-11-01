@@ -571,8 +571,8 @@ body {
 /* footer */
 
 .footer {
-    font-family: Arial, sans-serif; /* Puedes ajustar la fuente según tu diseño */
-    color: #333; /* Color de texto predeterminado */
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
 .footer__top-title {
@@ -593,12 +593,12 @@ body {
 
 .footer__link {
     text-decoration: none;
-    color: #007bff; /* Color de los enlaces */
+    color: #007bff;
     transition: color 0.3s;
 }
 
 .footer__link:hover {
-    color: #0056b3; /* Color al pasar el mouse */
+    color: #0056b3;
 }
 
 .footer__copyright {
