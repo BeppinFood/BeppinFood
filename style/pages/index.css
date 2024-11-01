@@ -409,7 +409,8 @@ body {
 
 .section__pricing-box {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: center;
     flex-direction: column;
     padding: 10px;
     width: 400px;
