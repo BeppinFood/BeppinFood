@@ -24,5 +24,96 @@
         <button type="submit" class="login__btn">Entrar</button>
       </form>
     </div>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__top-box">
+          <h4 class="footer__top-title">Enlaces útiles</h4>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Inicio</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Caracteristicas</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Precios</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Demostración gratuita</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__top-box">
+          <h4 class="footer__top-title">Soporte</h4>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Preguntas frecuentes</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Documentación</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Centro de ayuda</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Contacto</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Términos y condiciones</a></li>
+          </ul>
+        </div>
+        <div class="footer__top-box">
+          <h4 class="footer__top-title">Empresa</h4>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Acerca de nosotros</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Nuestro Equipo</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Testimonios</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Carreras</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Política de Privacidad</a></li>
+          </ul>
+        </div>
+        <div class="footer__top-box">
+          <h4 class="footer__top-title">Redes sociales</h4>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Facebook</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">X</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Instagram</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">LinkedIn</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="footer__top-box">
+          <h4 class="footer__top-title">Recursos</h4>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Guías y tutoriales</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Seminarios web</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Estudios de caso</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Noticias</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Eventos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">2024 &copy; BeppinFood</p>
+      </div>
+    </footer>
+
+    <button class="chat-button" id="openChat" onclick="openChat()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z" /></svg>
+    </button>
+    <button class="chat-button chat-button--close" id="closeChat" onclick="closeChat()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg>
+    </button>
+
+    <div class="chat" id="chat">
+      <div class="chat__head">
+        <h5 class="chat__name">Chat</h5>
+      </div>
+      <div class="chat__body">
+        <div class="chat__conversation">
+          <p class="chat__message">
+            <span class="chat__message-agent">¡Hola! ¿En qué puedo ayudarte hoy?</span>
+          </p>
+          <p class="chat__message">
+            <span class="chat__message-client">Hola, estoy buscando información sobre los precios.</span>
+          </p>
+          <p class="chat__message">
+            <span class="chat__message-agent">Claro, estaré encantado de ayudarte con eso.</span>
+          </p>
+        </div>
+        <form action="" class="chat__form">
+          <input type="text" class="chat__input" placeholder="Mensaje" />
+          <button type="submit" class="chat__button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z" /></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script/pages/index.js"></script>
   </body>
 </html>
