@@ -404,7 +404,6 @@ body {
 .section__pricing {
     flex-direction: row;
     justify-content: space-between;
-    gap: 10px;
 }
 
 .section__pricing-box {
@@ -414,6 +413,7 @@ body {
     flex-direction: column;
     padding: 10px;
     width: 400px;
+    gap: 10px;
     height: 600px;
     border-radius: 10px;
     background-color: #fff;
