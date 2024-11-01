@@ -462,7 +462,7 @@ body {
     width: 70%;
     padding: 10px;
     gap: 10px;
-    
+
 }
 
 .section__faq-box {
@@ -512,7 +512,8 @@ body {
 
 .support-icon {
     margin-right: 10px;
-    font-size: 20px; /* Ajusta el tamaño del icono si es necesario */
+    font-size: 20px;
+    /* Ajusta el tamaño del icono si es necesario */
 }
 
 /* contacto */
@@ -548,7 +549,8 @@ body {
 }
 
 .section__contact-textarea {
-    resize: vertical; /* Permite cambiar el tamaño verticalmente */
+    resize: vertical;
+    /* Permite cambiar el tamaño verticalmente */
     min-height: 100px;
 }
 
@@ -584,6 +586,10 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 10px;
+}
+
+.footer__list {
+    list-style: none;
 }
 
 @media screen and (max-width: 800px) {
