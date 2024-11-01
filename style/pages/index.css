@@ -576,7 +576,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #c7de9e;
-    min-height: 50vh;
+    padding: 50px;
 }
 
 .footer__top-box {
