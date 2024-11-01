@@ -48,6 +48,7 @@ body {
 .login__btn:hover {
     background-color: #a0c000;
     border: 3px solid #aace6b;
+    color: #000;
     background: none;
 }
 
