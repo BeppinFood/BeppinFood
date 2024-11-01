@@ -404,6 +404,7 @@ body {
 .section__pricing {
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .section__pricing-box {
