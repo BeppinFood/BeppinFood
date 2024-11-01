@@ -483,6 +483,8 @@ body {
 
 .section__faq-description {
     background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 /* soporte */
